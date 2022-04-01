@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --cyan:hsl(193, 38%, 86%);
+    --neonGreen:hsl(150, 100%, 66%);
+    --GrayishBlue: hsl(217, 19%, 38%) ;
+    --DarkGrayishBlue: hsl(217, 19%, 24%);
+    --DarkBlue: hsl(218, 23%, 16%)
+}
+body{
+    width: 1440px;
+    background-color: var(--DarkBlue);
+    font-family: 'Manrope', sans-serif;
+}
+h5{
+    position: fixed;
+    bottom:20px;
+    left: 635px;
+    color:white;
+    font-size: 12px;
+}
+.advice-box{
+    padding: 20px;
+    background-color: var(--DarkGrayishBlue);
+    margin-top: 200px;
+    margin-left: 465px;
+    width: 520px;
+    height: 330px;
+    border-radius: 15px;
+    
+}
+.advice-id{
+    font-size: 10px;
+    line-break: loose;
+    letter-spacing: 5px;
+    color:var(--neonGreen);
+    text-align: center;
+    position: relative;
+    top: 35px;
+    /* border:2px solid red; */
+}
+#divider{
+    position: absolute;
+    left:500px;
+    top:455px;
+}
+#advice{
+    text-align: center;
+    padding: 0 0 5px 0 ;
+    color:hsl(217, 19%, 38%);
+    width: 415px;
+    position: absolute;
+    top:290px;
+    left: 520px;
+    font-size: 28px;
+    font-weight: bold;
+}
+#genQuote{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top:500px;
+    right: 790px;
+    background-color: var(--neonGreen);
+    border: none;
+}
+#dice{
+    position: relative;
+    top:2px;
+}
+button:hover{
+    box-shadow: 0px 0px 40px 2px hsl(150, 100%, 66%);
+}
+
+/*-------------------------
+responsive part begins here
+---------------------------*/
+
+@media (min-width:374px) and (max-width:414px){
+    
+    body{
+    width: 373px;
+    height:660px;        
+    }
+    .advice-box{
+        margin-top: 70px;
+        width: 345px;
+        height: 300px;
+        margin-left: 16px;
+    }
+    #advice{
+        margin: 0px;
+        width: 315px;
+        font-size: 25px;
+        position:absolute;
+        top:170px;
+        left:35px;
+    }
+    #divider{
+        width:250px;
+        position:absolute;
+        top:290px;
+        left:63px;
+    }
+    #genQuote{
+        width: 50px;
+        position:absolute;
+        top:340px;
+        left:162px;
+    }
+    h5{
+        position: fixed;
+        bottom:20px;
+        left: 105px;
+        color:white;
+        font-size: 12px;
+    }
+    
+}
+
+
+@media (min-width:359px) and (max-width:370px){
+    body{
+        width: 360px;
+        height:660px;        
+        }
+        .advice-box{
+            margin-top: 70px;
+            width: 335px;
+            height: 300px;
+            margin-left: 12px;
+        }
+        #advice{
+            margin: 0px;
+            width: 315px;
+            font-size: 25px;
+            position:absolute;
+            top:170px;
+            left:35px;
+        }
+        #divider{
+            width:250px;
+            position:absolute;
+            top:290px;
+            left:63px;
+        }
+        #genQuote{
+            width: 50px;
+            position:absolute;
+            top:340px;
+            left:162px;
+        }
+        h5{
+            position: fixed;
+            bottom:50px;
+            left: 100px;
+            color:white;
+            font-size: 12px;
+        }
+}
+
+
+@media (min-width:389px) and (max-width:400px){
+    
+    body{
+    width: 373px;
+    height:660px;        
+    }
+    .advice-box{
+        margin-top: 70px;
+        width: 345px;
+        height: 300px;
+        margin-left: 25px;
+    }
+    #advice{
+        margin: 0px;
+        width: 310px;
+        font-size: 25px;
+        position:absolute;
+        top:170px;
+        left:45px;
+    }
+    #divider{
+        width:250px;
+        position:absolute;
+        top:290px;
+        left:70px;
+    }
+    #genQuote{
+        width: 50px;
+        position:absolute;
+        top:340px;
+        left:170px;
+    }
+    h5{
+        position: fixed;
+        bottom:160px;
+        left: 115px;
+        color:white;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:412px) and (max-width:500px){
+    
+    body{
+    width: 373px;
+    height:660px;        
+    }
+    .advice-box{
+        margin-top: 70px;
+        width: 345px;
+        height: 300px;
+        margin-left: 38px;
+    }
+    #advice{
+        
+        margin: 0px;
+        width: 260px;
+        font-size: 25px;
+        position:absolute;
+        top:170px;
+        left:81px;
+    }
+    #divider{
+        width:250px;
+        position:absolute;
+        top:290px;
+        left:85px;
+    }
+    #genQuote{
+        width: 50px;
+        position:absolute;
+        top:340px;
+        left:185px;
+    }
+    h5{
+        position: fixed;
+        bottom:220px;
+        left: 125px;
+        color:white;
+        font-size: 12px;
+    }
+}
+@media (min-width:359px) and (max-width:361px){
+    
+    body{
+    width: 373px;
+    height:660px;        
+    }
+    .advice-box{
+        margin-top: 70px;
+        width: 340px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    #advice{
+        margin: 0px;
+        width: 250px;
+        font-size: 25px;
+        position:absolute;
+        top:170px;
+        left:58px;
+    }
+    #divider{
+        width:250px;
+        position:absolute;
+        top:290px;
+        left:52px;
+    }
+    #genQuote{
+        width: 50px;
+        position:absolute;
+        top:340px;
+        left:152px;
+    }
+    
+}
