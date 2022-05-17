@@ -4,4 +4,4 @@
 
 # Tech Stack used 
 
-HTML% , CSS3 , Vanilla JS
+HTML5 , CSS3 , Vanilla JS
